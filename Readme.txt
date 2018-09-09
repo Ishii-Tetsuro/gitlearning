@@ -1,0 +1,9 @@
+origin/master
+　リモートリポジトリ「origin」のブランチ「master」の位置を表しています。
+origin/HEAD
+　リモートリポジトリ「origin」をクローンした時にダウンロードされるコミットの位置を表しています。
+　通常「origin/master」と同じ位置を指します。
+master
+　ローカルリポジトリのブランチ「master」の位置を表しています。
+origin
+　クローンした場合、どこのツリーを取得したかの情報が"origin"として記録されます。
