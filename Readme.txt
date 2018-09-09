@@ -1,3 +1,6 @@
+[参考]
+　https://backlog.com/ja/git-tutorial/reference/
+
 origin/master
 　リモートリポジトリ「origin」のブランチ「master」の位置を表しています。
 origin/HEAD
@@ -26,3 +29,17 @@ rebase
 
 A successful Git branching model
 　http://keijinsonyaban.blogspot.com/2010/10/a-successful-git-branching-model.html
+
+fetch
+　リモートリポジトリの最新の履歴の取得だけを行うことができます。
+pull
+　fetch + merge
+
+amendオプション
+　同じブランチの直前のコミットに対して内容を追加やコメントの修正をすることができます。
+revert
+　指定したコミットの内容を打ち消すコミットを作り出すことができます。
+reset
+　要らなくなったコミットを捨てることができます。
+cherry-pick
+　別のブランチから指定したコミットをコピーして、現在のブランチに取り込む事ができます。
